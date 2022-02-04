@@ -1,0 +1,16 @@
+body {
+  background-color: #000000;
+}
+h1 {
+  color: #E900FF;
+  font-family: Calibri;
+  font-size: 125%;
+  margin: auto;
+  text-align: center;
+
+}
+p {
+  color: #FF55FF;
+  font-family: Calibri;
+  text-align: center;
+}
