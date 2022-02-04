@@ -12,6 +12,15 @@
   
 }
 
+li 
+{
+  color: #E900FF;
+  font-family: 'Roboto' sans-serif;
+  font-size: 125%;
+  margin: auto;
+  text-align: center;
+}
+
 body {
   background-color: #ffffff;
 }
