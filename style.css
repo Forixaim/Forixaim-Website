@@ -6,34 +6,33 @@
   font-display: swap;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-
-@font-face {
-  
-}
-
-#head
-{
-  color: #000898;
-  font-family: 'Roboto' sans-serif;
-  font-size: 90%;
-  text-decoration: none;
-  background-color: #eeeeee;
-}
-
 body {
-  background-color: #ffffff;
+	background-color: #FFFFFF;
+	color: #0008a8;
+	font-family: 'Roboto', sans-serif;
+	font-size: 125%;
 }
-h1 {
-  color: #000898;
-  font-family: 'SegoeUIV', sans-serif;
-  font-size: 125%;
-  margin: auto;
-  text-align: center;
 
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #222222;
 }
-p {
-  color: #000898;
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
+
+#title {
+	text-align: center;
+}
+
+
+.navlink {
+	float: left;
+	/* qwhatervver*/
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	display: block;
+	padding: 16px;
+	font-style: bold;
+	text-decoration: none;
 }
