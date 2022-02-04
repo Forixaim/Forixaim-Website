@@ -1,9 +1,17 @@
+@font-face {
+  font-family: "SegoeUIV";
+  src: url("/fonts/SegoeUiVariableStaticText.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
 body {
   background-color: #000000;
 }
 h1 {
   color: #E900FF;
-  font-family: Calibri;
+  font-family: SegoeUIV;
   font-size: 125%;
   margin: auto;
   text-align: center;
@@ -11,6 +19,6 @@ h1 {
 }
 p {
   color: #FF55FF;
-  font-family: Calibri;
+  font-family: SegoeUIV;
   text-align: center;
 }
