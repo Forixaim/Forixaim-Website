@@ -13,10 +13,10 @@
 }
 
 body {
-  background-color: #000000;
+  background-color: #ffffff;
 }
 h1 {
-  color: #E900FF;
+  color: #000898;
   font-family: 'SegoeUIV', sans-serif;
   font-size: 125%;
   margin: auto;
@@ -24,7 +24,7 @@ h1 {
 
 }
 p {
-  color: #FF55FF;
+  color: #000898;
   font-family: 'Roboto', sans-serif;
   text-align: center;
 }
