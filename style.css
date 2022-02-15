@@ -17,10 +17,14 @@ ul
 
 #homeimage
 {
-	max-height: 50px;
-	max-width: 50px;
+	max-height: 25px;
+	max-width: 25px;
+	animation-duration: 2s;
 }
-
+#homeimage.hover
+{
+	transform: rotate(360deg);
+}
 #title 
 {
 	text-align: center;
