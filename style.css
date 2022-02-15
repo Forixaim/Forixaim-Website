@@ -1,11 +1,13 @@
-body {
+body 
+{
 	background-color: #FFFFFF;
 	color: #000000;
 	font-family: 'Roboto', sans-serif;
 	font-size: 125%;
 }
 
-ul {
+ul 
+{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -13,17 +15,27 @@ ul {
 	background-color: #222222;
 }
 
-#title {
+#homeimage
+{
+	max-height: 100px;
+	max-width: 100px;
+}
+
+#title 
+{
 	text-align: center;
 }
-#subtitle {
+#subtitle 
+{
 	font-size: 100%;
 }
-#content {
+#content 
+{
 	font-size: 100%;
 }
 
-.navlink {
+.navlink 
+{
 	float: left;
 	color: #ffffff;
 	font-family: 'Roboto', sans-serif;
@@ -35,10 +47,12 @@ ul {
 	max-width: 100%;
 	max-height: 100%;
 }
-.navlink:hover {
+.navlink:hover 
+{
 	background-color: #333333;
 }
 
-.navlink:active {
+.navlink:active 
+{
 	background-color: #444444;
 }
