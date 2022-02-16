@@ -37,6 +37,12 @@ ul
 {
 	font-size: 100%;
 }
+.logo
+{
+	max-width: 100px;
+	max-height:100px;
+}
+
 
 .navlink 
 {
