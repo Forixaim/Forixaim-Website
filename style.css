@@ -97,6 +97,41 @@ ul
 	100% {bottom: 0px}
 }
 
+@keyframes enter 
+{
+	0% {bottom: 0px}
+	50% {bottom: 2px}
+	100% {bottom: 0px}
+}
+
+@-moz-keyframes enter
+{
+	0% {bottom: 0px}
+	50% {bottom: 2px}
+	100% {bottom: 0px}
+}
+
+@-webkit-keyframes enter
+{
+	0% {bottom: 0px}
+	50% {bottom: 2px}
+	100% {bottom: 0px}
+}
+
+@-ms-keyframes enter
+{
+	0% {bottom: 0px}
+	50% {bottom: 2px}
+	100% {bottom: 0px}
+}
+
+@-o-keyframes enter
+{
+	0% {bottom: 0px}
+	50% {bottom: 2px}
+	100% {bottom: 0px}
+}
+
 #homeimage
 {
 	max-height: 25px;
