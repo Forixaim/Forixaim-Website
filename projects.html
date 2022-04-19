@@ -29,6 +29,29 @@
 			<h2 class = "subtitle">ForiBot</h2>
 			<p class = "content">The ForiBot is just a simple bot made in C++ to test my concepts on AI development.</p>
 			<a id = "botinvite" href = "https://discord.com/api/oauth2/authorize?client_id=957411479668260884&permissions=8&scope=bot%20applications.commands">Invite The Bot</a>
+			<script type="module">
+				  // Import the functions you need from the SDKs you need
+				  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.11/firebase-app.js";
+				  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.11/firebase-analytics.js";
+				  // TODO: Add SDKs for Firebase products that you want to use
+				  // https://firebase.google.com/docs/web/setup#available-libraries
+
+				  // Your web app's Firebase configuration
+				  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+				  const firebaseConfig = {
+				    apiKey: "AIzaSyCM1UMpINeEJXraA_N2JrQn0jEFnSF-cho",
+				    authDomain: "project-omneria.firebaseapp.com",
+				    projectId: "project-omneria",
+				    storageBucket: "project-omneria.appspot.com",
+				    messagingSenderId: "802246687698",
+				    appId: "1:802246687698:web:cb11f4d32ca9169ddbe60b",
+				    measurementId: "G-JR2EM5BL26"
+				  };
+
+				  // Initialize Firebase
+				  const app = initializeApp(firebaseConfig);
+				  const analytics = getAnalytics(app);
+			</script>
 		</section>
 		<script src="script.js"></script>
 	</body>
